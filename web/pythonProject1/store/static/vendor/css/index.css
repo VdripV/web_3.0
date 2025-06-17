@@ -1,0 +1,150 @@
+body {
+    background: url("../img/jdm-wallpaper.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /*padding-top: 56px;*/
+}
+
+.navbar {
+    line-height: 0.6;
+    background-color: #c4293b;
+    width: 100%;
+    box-shadow:
+    -7px -7px 0 black,
+    7px -7px 0 black,
+    -7px 7px 0 black, 10px 10px 20px black;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    font-family: "RalewayRegular";
+    font-size: 75px;
+    text-decoration: underline;
+}
+
+.navbar-collapse {
+    padding-top: 15px;
+}
+.nav-link {
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.mt-5 {
+    user-select: none;
+    font-family: "RalewayRegular";
+    font-size: 150px;
+    color: black;
+    text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+}
+
+.my-4 {
+    user-select: none;
+    font-family: "RalewayRegular";
+    font-size: 60px;
+    color: black;
+    text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+}
+
+.col-lg-6 {
+    margin: 0 auto;
+    text-align: center;
+
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.underh1 {
+    user-select: none;
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 35px;
+    color: black;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+#start-purchase-btn {
+    margin-top: 35px;
+    background-color: #c4293b;
+    border-color: black;
+    color: white;
+}
+
+#start-purchase-link {
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 25px;
+    margin-top: 35px;
+    background-color: #c4293b;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 200ms linear;
+}
+
+#start-purchase-link:hover {
+    box-shadow: 0 .5em 1em 0 rgba(255, 255, 255, 0.5), 0 .4em .5em -.4em rgba(255, 255, 255, 0.8);
+}
+
+a {
+    text-decoration: none;
+  }
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: 3px solid white;
+    transition: font-size 200ms linear;
+
+}
+
+.list-group-item:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.page-link {
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    border: 3px solid white;
+}
+
+@font-face {
+    font-family: "RalewayRegular"; 
+    src: url("../fonts/CFSamuraiBob.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }
+
+@font-face {
+    font-family: "HanZi"; 
+    src: url("../fonts/HanZi.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }
